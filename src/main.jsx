@@ -18,7 +18,7 @@ const profile = {
   location: "Mumbai, Maharashtra",
   linkedin: "https://linkedin.com/in/vikas-prajapati-734b15311",
   github: "https://github.com/VikasPrajapati9882",
-  avatar: "portfolio/vikas-profile.png",
+  avatar: "/portfolio/vikas-profile.png",
 };
 
 const skills = [
