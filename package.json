@@ -2,10 +2,12 @@
   "name": "vikas-cybersecurity-portfolio",
   "private": true,
   "version": "1.0.0",
+  "homepage": "https://github.com/VikasPrajapati9882/portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -15,6 +17,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
+    "gh-pages": "^6.3.0",
     "vite": "^6.0.5"
   }
 }
