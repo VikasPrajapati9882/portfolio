@@ -268,9 +268,15 @@ function App() {
 
             <div className="terminal-card hero-terminal">
               <div className="terminal-top">
-                <span /><span /><span />
+                <div className="terminal-dots">
+                  <span />
+                  <span />
+                  <span />
+                </div>
                 <b>security_monitor.sh</b>
-                <span className="terminal-badge">● LIVE TELEMETRY</span>
+                <div className="terminal-badge">
+                  <span className="terminal-status-dot" /> LIVE TELEMETRY
+                </div>
               </div>
               <div className="terminal-body">
                 <p><i>$</i> {currentLog.cmd}</p>
@@ -459,7 +465,10 @@ function App() {
                   understanding how attacks and defenses work together.
                 </p>
                 <div className="lab-terminal">
-                  <div className="terminal-top"><span /><span /><span /><b>lab_activity.log</b></div>
+                  <div className="terminal-top">
+                    <div className="terminal-dots"><span /><span /><span /></div>
+                    <b>lab_activity.log</b>
+                  </div>
                   <div className="terminal-body">
                     <p><i>01</i> nmap → network enumeration & service discovery</p>
                     <p><i>02</i> wireshark → packet analysis & protocol dissection</p>
